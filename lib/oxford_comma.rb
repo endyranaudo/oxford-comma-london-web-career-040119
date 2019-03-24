@@ -6,8 +6,8 @@ def oxford_comma(array)
     array.join(" and ")
   elsif array.length >= 3
     last_element = ", and #{array.pop}"
-    array.each do |fruit|
-    new_arr.p
+    array.pop
+    binding.pry
   end
 end
 
